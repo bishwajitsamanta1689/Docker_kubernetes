@@ -1,0 +1,7 @@
+## Taking the Base Image Java
+
+FROM java
+
+## Add the Hazelcast Tar File
+
+
