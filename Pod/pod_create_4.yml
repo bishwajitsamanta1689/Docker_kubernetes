@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: myapp
-  namespace: devops-kuberentes
+  namespace: devops-kubernetes
   labels:
     app: myapp
     type: front-end
