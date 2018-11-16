@@ -1,12 +1,10 @@
 apiVersion: v1
 kind: Pod
-metadata:
-  name: my-second-pod
+metadata: 
+  name: my-first-pod
   labels:
-    app: my-second-pod
+    app: my-first-pod
     type: front-end
 
-spec:
-  containers:
-     - name: nginx-controller
-       image: 'nginx'
+ spec: 
+ 

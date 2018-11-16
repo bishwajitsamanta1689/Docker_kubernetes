@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: my-new-deployment
   labels:
-    app: my-new-app
+    app: myapp
     type: front-end
 
 spec:

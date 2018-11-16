@@ -228,5 +228,7 @@ error: at least one taint update is required
 root@k8smaster:~/kubernetes_yaml_files# kubectl taint nodes k8sslave01 node.kubernetes.io/not-ready-
 node/k8sslave01 untainted
 
+Kubernetes Dashboard::-
+-----------------------
 
- kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
+#kubectl create -f https://raw.githubusercontent.com/kubernetes/dashboard/master/src/deploy/recommended/kubernetes-dashboard.yaml
