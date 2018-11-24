@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: ConfigMap
+data:
+  APP_COLOR: darkblue
+metadata:
+  name: webapp-config-map
+  namespace: devops-kubernetes
+
+
+## kubectl get configmaps
+## kubectl create -f <filename>.yml
